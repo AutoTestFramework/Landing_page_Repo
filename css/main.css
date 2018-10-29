@@ -1658,7 +1658,7 @@ body{
     color:#fff
 }
 .banner-area{
-    background:#001f3f
+    background:#fff
 }
 @media (max-width: 767px){
     .banner-area .fullscreen{
@@ -1937,7 +1937,7 @@ body{
     z-index:1
 }
 .common-input{
-    border:1px solid #a6d477;
+    border:1px solid #fff;
     line-height:48px;
     width:100%;
     display:block;
@@ -1946,7 +1946,7 @@ body{
     color:#fff
 }
 .common-textarea{
-    border:1px solid #a6d477;
+    border:1px solid #fff;
     width:100%;
     display:block;
     background:transparent;
