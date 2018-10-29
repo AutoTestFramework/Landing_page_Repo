@@ -1910,29 +1910,29 @@ body{
     font-weight:300
 }
 .contact-form ::-webkit-input-placeholder{
-    color:#fff;
+    color:#000000;
     font-weight:300
 }
 .contact-form :-moz-placeholder{
-    color:#fff;
+    color:#000000;
     opacity:1;
     font-weight:300
 }
 .contact-form ::-moz-placeholder{
-    color:#fff;
+    color:#000000;
     opacity:1;
     font-weight:300
 }
 .contact-form :-ms-input-placeholder{
-    color:#fff;
+    color:#000000;
     font-weight:300
 }
 .contact-form ::-ms-input-placeholder{
-    color:#fff;
+    color:#000000;
     font-weight:300
 }
 .contact-form .alert-msg{
-    color:#fff !important;
+    color:#000000 !important;
     margin-top:50px;
     z-index:1
 }
