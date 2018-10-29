@@ -2092,7 +2092,7 @@ footer .footer-nav li a:hover{
      left: 0;
 }
  .card-text {
-     font-size: 14px;
+     font-size: 14px; 
 }
  .card.features:hover {
      transform: translateY(-3px);
