@@ -29,7 +29,7 @@
     font-weight:300
 }
 body{
-    color:#0074D9;
+    color:#777;
     font-family:"Poppins",sans-serif;
     font-size:14px;
     font-weight:300;
@@ -1795,15 +1795,15 @@ body{
     }
 }
 .feature-area{
-    background-color:#001f3f
+    background:url(../img/video-bg.jpg) no-repeat center center/cover
 }
 .feature-area .overlay-bg{
-    background-color:#fff;
+    background:rgba(108,187,35,0.85)
 }
 .feature-area .icon{
     font-size:100px;
     color:#fff;
-    background:#fff;
+    background:#f0f8e9;
     text-align:center;
     padding:50px;
     -webkit-transition:all 0.3s ease 0s;
@@ -1813,13 +1813,13 @@ body{
 }
 .feature-area .icon:hover{
     color:#fff;
-    background-color:#fff
+    background-color:#6cbb23
 }
 .feature-area .icon:hover .lnr{
     color:#fff
 }
 .feature-area .lnr{
-    color:#fff
+    color:#6cbb23
 }
 .feature-area .desc{
     margin-top:30px
@@ -1831,7 +1831,7 @@ body{
     letter-spacing:2.5px
 }
 .feature-area .desc p{
-    color:#fff
+    color:#555
 }
 .single-feature{
     background-color:#fff;
@@ -1896,7 +1896,7 @@ body{
     color:#fff
 }
 .contact-area .overlay-bg{
-    background:#fff
+    background:rgba(108,187,35,0.85)
 }
 .contact-area h2{
     font-size:36px;
@@ -1937,7 +1937,7 @@ body{
     z-index:1
 }
 .common-input{
-    border:1px solid #fff;
+    border:1px solid #a6d477;
     line-height:48px;
     width:100%;
     display:block;
@@ -1946,7 +1946,7 @@ body{
     color:#fff
 }
 .common-textarea{
-    border:1px solid #fff;
+    border:1px solid #a6d477;
     width:100%;
     display:block;
     background:transparent;
@@ -2052,6 +2052,8 @@ footer .footer-nav li a:hover{
 }
 .elements-banner{
     color:#000 !important
+}
+ 
 }
 /* FEATURES ----------------------*/
  .gradient-fill:before {
