@@ -1813,13 +1813,13 @@ body{
 }
 .feature-area .icon:hover{
     color:#fff;
-    background-color:#6cbb23
+    background-color:#0074D9
 }
 .feature-area .icon:hover .lnr{
-    color:#fff
+    color:#0074D9
 }
 .feature-area .lnr{
-    color:#6cbb23
+    color:#0074D9
 }
 .feature-area .desc{
     margin-top:30px
