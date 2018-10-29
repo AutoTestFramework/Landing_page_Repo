@@ -1798,7 +1798,7 @@ body{
     background:url(../img/video-bg.jpg) no-repeat center center/cover
 }
 .feature-area .overlay-bg{
-    background:rgba(108,187,35,0.85)
+    background:#001f3f;
 }
 .feature-area .icon{
     font-size:100px;
