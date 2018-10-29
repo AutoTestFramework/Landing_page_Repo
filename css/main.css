@@ -397,7 +397,7 @@ td,th{
     font-style:italic
 }
 .text-white{
-    color:#000000;
+    color:#fff;
 }
 .transition{
     -webkit-transition:all 0.3s ease 0s;
@@ -1834,13 +1834,13 @@ body{
     color:#555
 }
 .single-feature{
-    background-color:#DCDCDC;
+    background-color:#fff;
     padding:30px;
     margin-bottom:30px
 }
 
 .single-feature2{
-    background-color:#ff0000;
+    background-color:#001f3f;
     padding:30px;
     margin-bottom:30px
 }
@@ -1916,25 +1916,25 @@ body{
     font-weight:300
 }
 .contact-form ::-webkit-input-placeholder{
-    color:#000000;
+    color:#fff;
     font-weight:300
 }
 .contact-form :-moz-placeholder{
-    color:#000000;
+    color:#fff;
     opacity:1;
     font-weight:300
 }
 .contact-form ::-moz-placeholder{
-    color:#000000;
+    color:#fff;
     opacity:1;
     font-weight:300
 }
 .contact-form :-ms-input-placeholder{
-    color:#000000;
+    color:#fff;
     font-weight:300
 }
 .contact-form ::-ms-input-placeholder{
-    color:#000000;
+    color:#fff;
     font-weight:300
 }
 .contact-form .alert-msg{
@@ -1943,21 +1943,21 @@ body{
     z-index:1
 }
 .common-input{
-    border:1px solid #000000;
+    border:1px solid #fff;
     line-height:48px;
     width:100%;
     display:block;
     background:transparent;
     padding:0 25px;
-    color:#00000;
+    color:#fff;
 }
 .common-textarea{
-    border:1px solid #000000;
+    border:1px solid #fff;
     width:100%;
     display:block;
     background:transparent;
     padding:15px 25px;
-    color:#000000;
+    color:#fff;
     height:150px;
     resize:none
 }
