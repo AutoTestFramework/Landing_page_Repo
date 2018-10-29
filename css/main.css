@@ -1798,12 +1798,12 @@ body{
     background:url(../img/video-bg.jpg) no-repeat center center/cover
 }
 .feature-area .overlay-bg{
-    background-color:#001f3f
+    background-color:#fff
 }
 .feature-area .icon{
     font-size:100px;
     color:#fff;
-    background:#f0f8e9;
+    background:#fff;
     text-align:center;
     padding:50px;
     -webkit-transition:all 0.3s ease 0s;
@@ -1813,13 +1813,13 @@ body{
 }
 .feature-area .icon:hover{
     color:#fff;
-    background-color:#0074D9
+    background-color:#fff
 }
 .feature-area .icon:hover .lnr{
-    color:#0074D9
+    color:#fff
 }
 .feature-area .lnr{
-    color:#0074D9
+    color:#fff
 }
 .feature-area .desc{
     margin-top:30px
