@@ -1,9 +1,9 @@
 ::-moz-selection{
-    background-color:#6cbb23;
+    background-color:#001f3f;
     color:#fff
 }
 ::selection{
-    background-color:#6cbb23;
+    background-color:#001f3f;
     color:#fff
 }
 ::-webkit-input-placeholder{
@@ -29,12 +29,13 @@
     font-weight:300
 }
 body{
-    color:#777;
+    color:#708090;
     font-family:"Poppins",sans-serif;
     font-size:14px;
     font-weight:300;
     line-height:1.5em;
     position:relative
+	
 }
 ol,ul{
     margin:0;
@@ -517,6 +518,7 @@ td,th{
 .light{
     color:#fff
 }
+
 .dark{
     color:#000
 }
@@ -544,7 +546,7 @@ td,th{
     padding:0
 }
 .section-bg{
-    background:#f9fafc
+    background:#FAF0E6
 }
 @media (max-width: 767px){
     .no-flex-xs{
@@ -564,7 +566,7 @@ td,th{
     font-size:24px
 }
 b,i,sup,sub,u,del{
-    color:#6cbb23
+    color:#001f3f
 }
 h1{
     font-size:36px
@@ -672,22 +674,22 @@ h1,h2,h3,h4,h5,h6{
 }
 .genric-btn.primary{
     color:#fff;
-    background:#6cbb23;
+    background:#001f3f;
     border:1px solid transparent
 }
 .genric-btn.primary:hover{
-    color:#6cbb23;
-    border:1px solid #6cbb23;
+    color:#001f3f;
+    border:1px solid #001f3f;
     background:#fff
 }
 .genric-btn.primary-border{
-    color:#6cbb23;
-    border:1px solid #6cbb23;
+    color:#001f3f;
+    border:1px solid #001f3f;
     background:#fff
 }
 .genric-btn.primary-border:hover{
     color:#fff;
-    background:#6cbb23;
+    background:#001f3f;
     border:1px solid transparent
 }
 .genric-btn.success{
@@ -801,7 +803,7 @@ h1,h2,h3,h4,h5,h6{
 .generic-blockquote{
     padding:30px 50px 30px 30px;
     background:#f9f9ff;
-    border-left:2px solid #6cbb23
+    border-left:2px solid #001f3f
 }
 .progress-table-wrap{
     overflow-x:scroll
@@ -900,7 +902,7 @@ h1,h2,h3,h4,h5,h6{
     position:absolute;
     width:14px;
     height:14px;
-    border:3px solid #6cbb23;
+    border:3px solid #001f3f;
     background:#fff;
     top:4px;
     left:0;
@@ -911,7 +913,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .ordered-list li{
     list-style-type:decimal-leading-zero;
-    color:#6cbb23;
+    color:#001f3f;
     font-weight:500;
     line-height:1.82em !important
 }
@@ -922,7 +924,7 @@ h1,h2,h3,h4,h5,h6{
 .ordered-list-alpha li{
     margin-left:30px;
     list-style-type:lower-alpha;
-    color:#6cbb23;
+    color:#001f3f;
     font-weight:500;
     line-height:1.82em !important
 }
@@ -933,7 +935,7 @@ h1,h2,h3,h4,h5,h6{
 .ordered-list-roman li{
     margin-left:30px;
     list-style-type:lower-roman;
-    color:#6cbb23;
+    color:#001f3f;
     font-weight:500;
     line-height:1.82em !important
 }
@@ -995,7 +997,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .single-input-primary:focus{
     outline:none;
-    border:1px solid #6cbb23
+    border:1px solid #001f3f
 }
 .single-input-accent{
     display:block;
@@ -1049,7 +1051,7 @@ h1,h2,h3,h4,h5,h6{
     width:15px;
     height:15px;
     border-radius:50%;
-    background:#6cbb23;
+    background:#001f3f;
     -webkit-transition:all 0.2s;
     -moz-transition:all 0.2s;
     -o-transition:all 0.2s;
@@ -1124,7 +1126,7 @@ h1,h2,h3,h4,h5,h6{
     left:19px
 }
 .primary-switch input:checked+label:before{
-    background:#6cbb23
+    background:#001f3f
 }
 .confirm-switch{
     width:35px;
@@ -1435,11 +1437,11 @@ h1,h2,h3,h4,h5,h6{
     padding-left:20px
 }
 .default-select .nice-select .list .option.selected{
-    color:#6cbb23;
+    color:#001f3f;
     background:transparent
 }
 .default-select .nice-select .list .option:hover{
-    color:#6cbb23;
+    color:#001f3f;
     background:transparent
 }
 .default-select .current{
@@ -1482,11 +1484,11 @@ h1,h2,h3,h4,h5,h6{
     padding-left:45px
 }
 .form-select .nice-select .list .option.selected{
-    color:#6cbb23;
+    color:#001f3f;
     background:transparent
 }
 .form-select .nice-select .list .option:hover{
-    color:#6cbb23;
+    color:#001f3f;
     background:transparent
 }
 .form-select .current{
@@ -1515,7 +1517,7 @@ body{
     font-size:24px
 }
 .menu-bar a{
-    color:#6cbb23
+    color:#001f3f
 }
 @media (max-width: 767px){
     .main-menubar a{
@@ -1545,7 +1547,7 @@ nav{
         text-align:right;
         padding:20px 0;
         z-index:5;
-        background:#6cbb23
+        background:#001f3f
     }
 }
 nav.hide{
@@ -1565,11 +1567,19 @@ nav a{
     }
 }
 nav a:hover{
-    color:#6cbb23
+    color:#001f3f
 }
 body{
-    background:#f6f6fc
+    background:#001f3f
+
+
+
+
+
+
+
 }
+
 .oz-body-wrap{
     box-shadow:0px 0px 50px 0px rgba(0,0,0,0.2);
     margin:50px;
@@ -1640,17 +1650,17 @@ body{
 .primary-btn.white-bg{
     background:#fff;
     border:1px solid #eee;
-    color:#6cbb23
+    color:#001f3f
 }
 .primary-btn.white-bg span{
-    color:#6cbb23;
+    color:#001f3f;
     -webkit-transition:all 0.3s ease 0s;
     -moz-transition:all 0.3s ease 0s;
     -o-transition:all 0.3s ease 0s;
     transition:all 0.3s ease 0s
 }
 .primary-btn.white-bg:hover{
-    background:#6cbb23;
+    background:#001f3f;
     color:#fff;
     border:1px solid transparent
 }
@@ -1703,7 +1713,7 @@ body{
     font-weight:600
 }
 .story-content .sp-2{
-    color:#6cbb23;
+    color:#001f3f;
     font-weight:600
 }
 @media (max-width: 768px){
@@ -1712,7 +1722,7 @@ body{
     }
 }
 .generic-banner{
-    background:#6cbb23
+    background:#001f3f
 }
 .generic-banner .height{
     height:600px
@@ -1813,13 +1823,13 @@ body{
 }
 .feature-area .icon:hover{
     color:#fff;
-    background-color:#6cbb23
+    background-color:#001f3f
 }
 .feature-area .icon:hover .lnr{
     color:#fff
 }
 .feature-area .lnr{
-    color:#6cbb23
+    color:#001f3f
 }
 .feature-area .desc{
     margin-top:30px
@@ -1840,10 +1850,11 @@ body{
 }
 
 .single-feature2{
-    background-color:#E3E2DF;
+    background-color:#fff;
     padding:30px;
     margin-bottom:30px
 }
+
 .faq-area{
     background:#fff
 }
@@ -1883,7 +1894,7 @@ body{
     }
 }
 .single-faq{
-    margin-bottom:30px
+    margin-bottom:30px;
 }
 .single-faq h2{
     font-size:18px;
@@ -1971,7 +1982,7 @@ footer .footer-nav li a{
     color:#777
 }
 footer .footer-nav li a:hover{
-    color:#6cbb23
+    color:#001f3f
 }
 .single-footer-widget{
     margin-bottom:30px
@@ -1987,13 +1998,13 @@ footer .footer-nav li a:hover{
     color:#777
 }
 .footer-bottom .footer-text i{
-    color:#6cbb23
+    color:#001f3f
 }
 .footer-bottom .footer-text a{
-    color:#6cbb23
+    color:#001f3f
 }
 .footer-bottom .footer-text a:hover{
-    color:#6cbb23
+    color:#001f3f
 }
 @media (max-width: 767px){
     .footer-social{
@@ -2019,7 +2030,7 @@ footer .footer-nav li a:hover{
     margin-right:0
 }
 .footer-social a:hover{
-    background:#6cbb23
+    background:#001f3f
 }
 .footer-social a:hover i{
     color:#fff
@@ -2183,13 +2194,13 @@ footer .footer-nav li a:hover{
      padding: 1rem 1rem;
      border-color: #fff;
      font-size: 19px;
-     color: #b5a4c8;
+     color: #633991;
      background: #fff;
 }
  .nav-tabs .nav-link.active {
      background: #FFF;
      border-top-width: 3px;
-     border-color: #ce75b4 #faf6fb #FFF;
+     border-color: #fff;
      color: #633991;
 }
 
