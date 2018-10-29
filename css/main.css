@@ -1798,7 +1798,7 @@ body{
     background:url(../img/video-bg.jpg) no-repeat center center/cover
 }
 .feature-area .overlay-bg{
-    background-color:#fff
+    background-color:#001f3f
 }
 .feature-area .icon{
     font-size:100px;
@@ -1831,7 +1831,7 @@ body{
     letter-spacing:2.5px
 }
 .feature-area .desc p{
-    color:#555
+    color:#fff
 }
 .single-feature{
     background-color:#fff;
