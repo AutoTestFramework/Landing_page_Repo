@@ -1937,16 +1937,16 @@ body{
     z-index:1
 }
 .common-input{
-    border:1px solid #000000;
+    border:2px solid #000000;
     line-height:48px;
     width:100%;
     display:block;
     background:transparent;
     padding:0 25px;
-    color:#fff
+    color:#00000;
 }
 .common-textarea{
-    border:5px solid #000000;
+    border:2px solid #000000;
     width:100%;
     display:block;
     background:transparent;
