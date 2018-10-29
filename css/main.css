@@ -2192,4 +2192,84 @@ footer .footer-nav li a:hover{
      border-color: #ce75b4 #faf6fb #FFF;
      color: #633991;
 }
+
+
+.contact-area {
+  background: #fff;
+  padding: 90px 0 120px 0;
+}
+
+.contact-area .single-address {
+  margin-top: 30px;
+  padding: 0 5px;
+}
+
+.contact-area .single-address h6 {
+  margin-bottom: 20px;
+}
+
+.contact-area .single-address p {
+  margin-bottom: 0;
+}
+
+.subscription-area {
+  padding-bottom: 90px;
+}
+
+.subscription input {
+  width: 100%;
+  line-height: 50px;
+  padding: 0 180px 0 25px;
+  border: none;
+  background: transparent;
+  font-weight: 300;
+  border-radius: 25px;
+  background: #f9f9ff;
+}
+
+.subscription .primary-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  background: #e0003b;
+  color: #fff;
+}
+
+.subscription .primary-btn span {
+  color: #fff;
+}
+
+.subscription .info {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 12px;
+}
+
+.subscription .info.valid {
+  color: #fff;
+}
+
+.subscription .info.error {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .subscription input {
+    padding: 0 25px;
+  }
+  .subscription .primary-btn {
+    top: 120%;
+    transform: translate(50%, 0);
+    right: 50%;
+    width: 220px;
+  }
+  .subscription .info {
+    top: 110px;
+  }
+}
+
  
