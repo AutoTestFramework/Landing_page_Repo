@@ -1795,7 +1795,7 @@ body{
     }
 }
 .feature-area{
-    background:url(../img/video-bg.jpg) no-repeat center center/cover
+    background-color:#001f3f
 }
 .feature-area .overlay-bg{
     background-color:#fff;
