@@ -2629,12 +2629,11 @@ footer .footer-nav li a:hover{
     text-align:center;
     top:0;
     width:100%;
-    z-index:10000;
 }
 .hover_bkgr_fricc1 .helper1{
-    display:inline-block;
+    display:inline;
     height:100%;
-    vertical-align:middle;
+    width: 100%;
 }
 .hover_bkgr_fricc1 > div {
     background-color: #fff;
@@ -2673,7 +2672,9 @@ footer .footer-nav li a:hover{
     cursor: pointer;
     font-size: 20px;
     margin: 20px;
-    display: inline-block;
+    height: 20px;
+    width: 100px;
+    display: block;
     font-weight: bold;
 }
 /* Popup box BEGIN */
